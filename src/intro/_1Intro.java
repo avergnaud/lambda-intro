@@ -12,16 +12,17 @@ public class _1Intro {
 	}
 
 	/*
-	 * Lambda : une "référence de méthode".
+	 * Lambda : une "implémentation de functional interface"
 	 * 	une méthode anonyme
 	 * 	une fonction
 	 * 	un bloc de code
-	 * 	
+	 * 
 	 * Le type de la variable lambda : Une "functional interface"
 	 * 	Interface avec une seule méthode (c'est la feinte)
 	 * 	(attention aux default methods java 8)
 	 * 
 	 * Type inference
+	 * 	Java essaie de mapper "(a, b) -> a + b" à l'interface Operation
 	 * 
 	 * @FunctionalInterface ?
 	 * 	http://www.java2s.com/Tutorials/Java/Java_Lambda/index.htm

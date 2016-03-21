@@ -1,8 +1,9 @@
 package intro;
 
 import java.util.function.BinaryOperator;
+import java.util.function.Predicate;
 
-public class _5Syntaxe {
+public class _5MethodReference {
 
 	private static Integer execute(BinaryOperator<Integer> operation) {
 
@@ -12,7 +13,7 @@ public class _5Syntaxe {
 	public static void main(String[] args) {
 
 		/* Method Invocation Context */
-		Integer resultat = execute(Math::max);
+		Integer resultat = execute(Math::max); /* method reference */
 		System.out.println(resultat);
 
 		/*
@@ -28,5 +29,17 @@ public class _5Syntaxe {
 		 * 
 		 * > ok
 		 */
+		
+		/*
+		 * FunctionalInterface var = method reference;
+		 * FunctionalInterface var = lambda expression;
+		 * 
+		 */
+		String str = "hello";
+		Predicate<String> methodRef = str::startsWith;
+		Predicate<String> lambda = s -> str.startsWith(s);
+		
+		System.out.println(methodRef.test("h"));
+		System.out.println(lambda.test("h"));
 	}
 }
