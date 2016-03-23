@@ -12,7 +12,9 @@ public class _1Intro {
 	}
 
 	/*
-	 * Lambda : une "implémentation de functional interface"
+	 * Lambda : une implementation anonyme
+	 * 	une function
+	 * 	une implémentation de functional interface
 	 * 	une méthode anonyme
 	 * 	une fonction
 	 * 	un bloc de code
@@ -27,6 +29,11 @@ public class _1Intro {
 	 * @FunctionalInterface ?
 	 * 	http://www.java2s.com/Tutorials/Java/Java_Lambda/index.htm
 	 * 	"Functional interfaces provide target types for lambda expressions and method references"
+	 * 	une interface avec une méthode (abstract...)
+	 * 	attention aux default et static methods : ne comptent pas
+	 * 
+	 * lambda != anonymous inner class :
+	 * https://youtu.be/8pDm_kH4YKY?t=49m58s
 	 */
 
 }
