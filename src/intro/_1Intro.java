@@ -8,16 +8,24 @@ public class _1Intro {
 
 		/* Assignment Context */
 		Operation addition = (a, b) -> a + b;
+		
 		System.out.println(addition.applique(4, 5));
 	}
 
 	/*
+	 * The core idea of functional programming is that you can create and manipulate functions
+	 * http://stackoverflow.com/questions/24279/functional-programming-and-non-functional-programming
+	 * A language that considers procedures to be "first-class" allows functions to be passed around just like any other value.
+	 * This means that functions are basic types and can be passed around just like integers or strings
+	 * 
+	 * 
 	 * Lambda : une implementation anonyme
 	 * 	une function
 	 * 	une implémentation de functional interface
 	 * 	une méthode anonyme
 	 * 	une fonction
 	 * 	un bloc de code
+	 * 	"a lambda is just a function without a name"
 	 * 
 	 * Le type de la variable lambda : Une "functional interface"
 	 * 	Interface avec une seule méthode (c'est la feinte)

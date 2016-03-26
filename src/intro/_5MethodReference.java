@@ -31,8 +31,9 @@ public class _5MethodReference {
 		 */
 		
 		/*
-		 * FunctionalInterface var = method reference;
+		 * FunctionalInterface var = anonymous inner class
 		 * FunctionalInterface var = lambda expression;
+		 * FunctionalInterface var = method reference;
 		 * 
 		 */
 		String str = "hello";
