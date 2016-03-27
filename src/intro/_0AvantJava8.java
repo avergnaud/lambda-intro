@@ -16,4 +16,9 @@ public class _0AvantJava8 {
 		System.out.println(addition.applique(3, 2));
 	}
 
+	/*
+	 * Paradigme POO : on manipule des objets
+	 * Paradigme PF : on manipule des fonctions
+	 */
+	
 }
