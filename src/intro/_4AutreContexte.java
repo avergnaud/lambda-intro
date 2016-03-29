@@ -14,5 +14,11 @@ public class _4AutreContexte {
 		/* Method Invocation Context */
 		Integer resultat = execute((a, b) -> Math.max(a, b));
 		System.out.println(resultat);
+		
+		/*
+		 * contextes :
+		 * http://www.java2s.com/Tutorials/Java/Java_Lambda/0060__Java_Lambda_Expression_Context.htm
+		 */
+		
 	}
 }
