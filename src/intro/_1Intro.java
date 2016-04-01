@@ -20,11 +20,9 @@ public class _1Intro {
 	 * 
 	 * 
 	 * Lambda : une implementation anonyme
-	 * 	une function
 	 * 	une implémentation de functional interface
+	 * 	un body de l'unique méthode d'une functional interface (corps sans signature)
 	 * 	une méthode anonyme
-	 * 	une fonction
-	 * 	un bloc de code
 	 * 	"a lambda is just a function without a name"
 	 * 
 	 * Le type de la variable lambda : Une "functional interface"
