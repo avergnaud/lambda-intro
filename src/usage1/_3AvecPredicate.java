@@ -14,6 +14,11 @@ public class _3AvecPredicate {
 
 		Predicate<marvel.model.Character> contientB = perso -> perso.getName().contains("b");
 
+		
+		
+		
+		
+		
 		List<Character> resultat = new ArrayList<>();
 		for (Character perso : persos) {
 			if (contientB.test(perso)) {

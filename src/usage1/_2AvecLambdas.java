@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import marvel.model.Character;
-import functionnal.Predicat;
+import functionnal.MonPredicatPerso;
 
 public class _2AvecLambdas {
 
@@ -12,8 +12,13 @@ public class _2AvecLambdas {
 
 		List<marvel.model.Character> persos = _0GET.PERSOS();
 
-		Predicat contientB = perso -> perso.getName().contains("b");
+		MonPredicatPerso contientB = perso -> perso.getName().contains("b");
 
+		
+		
+		
+		
+		
 		List<Character> resultat = new ArrayList<>();
 		for (Character perso : persos) {
 			if (contientB.estOk(perso)) {

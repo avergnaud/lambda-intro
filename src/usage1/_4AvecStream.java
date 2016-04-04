@@ -14,6 +14,11 @@ public class _4AvecStream {
 
 		Predicate<marvel.model.Character> contientB = perso -> perso.getName().contains("b");
 
+		
+		
+		
+		
+		
 		List<Character> resultat = persos.stream()
 				.filter(contientB)
 				.collect(Collectors.toList());

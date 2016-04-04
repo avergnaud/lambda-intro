@@ -27,6 +27,7 @@ public class Exemple {
 		//APRES - METHODE REFERENCE :
 		nameComparator = Exemple::monComparateur;
 		
+		System.out.println(persos.get(0).getName());
 		Collections.sort(persos, nameComparator);
 		System.out.println(persos.get(0).getName());
 	}

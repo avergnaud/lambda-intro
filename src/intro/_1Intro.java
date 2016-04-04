@@ -6,8 +6,12 @@ public class _1Intro {
 
 	public static void main(String[] args) {
 
-		/* Assignment Context */
 		Operation addition = (a, b) -> a + b;
+		
+		
+		
+		
+		
 		
 		System.out.println(addition.applique(4, 5));
 	}
@@ -20,22 +24,22 @@ public class _1Intro {
 	 * 
 	 * 
 	 * Lambda : une implementation anonyme
-	 * 	une implémentation de functional interface
-	 * 	un body de l'unique méthode d'une functional interface (corps sans signature)
-	 * 	une méthode anonyme
+	 * 	une implï¿½mentation de functional interface
+	 * 	un body de l'unique mï¿½thode d'une functional interface (corps sans signature)
+	 * 	une mï¿½thode anonyme
 	 * 	"a lambda is just a function without a name"
 	 * 
 	 * Le type de la variable lambda : Une "functional interface"
-	 * 	Interface avec une seule méthode (c'est la feinte)
+	 * 	Interface avec une seule mï¿½thode (c'est la feinte)
 	 * 	(attention aux default methods java 8)
 	 * 
 	 * Type inference
-	 * 	Java essaie de mapper "(a, b) -> a + b" à l'interface Operation
+	 * 	Java essaie de mapper "(a, b) -> a + b" ï¿½ l'interface Operation
 	 * 
 	 * @FunctionalInterface ?
 	 * 	http://www.java2s.com/Tutorials/Java/Java_Lambda/index.htm
 	 * 	"Functional interfaces provide target types for lambda expressions and method references"
-	 * 	une interface avec une méthode (abstract...)
+	 * 	une interface avec une mï¿½thode (abstract...)
 	 * 	attention aux default et static methods : ne comptent pas
 	 * 
 	 * lambda != anonymous inner class :

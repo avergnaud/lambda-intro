@@ -36,14 +36,14 @@ public class Examples1 {
 		 */
 		
 		/*
-		 * une lambda expression peut être compilée de plusieurs façons (implémentations de javac)
-		 * ex : une méthode statique...
+		 * une lambda expression peut etre compilee de plusieurs facons (implementations de javac)
+		 * ex : une methode statique...
 		 * 
 		 * Java n'a pas de type natif "function"
 		 * > le type d'une lambda expression est une functionnal interface
 		 */
 		
-		/* On s'intéresse aux signatures */
+		/* On s'interesse aux signatures */
 		Integer un = Integer.valueOf("1");
 		
 		Function<String,Integer> maFunction = Integer::valueOf;

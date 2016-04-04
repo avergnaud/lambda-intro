@@ -1,6 +1,6 @@
 package functionnal;
 
-public interface Predicat {
+public interface MonPredicatPerso {
 	
 	boolean estOk(marvel.model.Character perso);
 }
