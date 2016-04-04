@@ -8,11 +8,11 @@ public class _1Intro {
 
 		Operation addition = (a, b) -> a + b;
 		
+//		addition = (int operande1, int operande2)
+//				-> {return operande1 + operande2;};
 		
 		
-		
-		
-		
+				
 		System.out.println(addition.applique(4, 5));
 	}
 
