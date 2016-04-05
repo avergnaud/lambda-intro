@@ -20,7 +20,7 @@ public class _4AvecStream {
 		
 		
 		List<Character> resultat = persos.stream()
-				.filter(contientB)
+				.filter(perso -> perso.getName().contains("b"))
 				.collect(Collectors.toList());
 
 		System.out.println(resultat);

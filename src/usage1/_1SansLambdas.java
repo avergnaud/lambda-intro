@@ -25,7 +25,7 @@ public class _1SansLambdas {
 				resultat.add(perso);
 			}
 		}
-
+		System.out.println(persos);
 		System.out.println(resultat);
 	}
 

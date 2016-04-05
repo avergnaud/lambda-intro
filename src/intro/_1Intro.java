@@ -8,9 +8,9 @@ public class _1Intro {
 
 		Operation addition = (a, b) -> a + b;
 		
-//		addition = (int operande1, int operande2)
-//				-> {return operande1 + operande2;};
-		
+//		Integer a = 1;
+//		Integer b = 2;
+//		System.out.println(a+b);
 		
 				
 		System.out.println(addition.applique(4, 5));
